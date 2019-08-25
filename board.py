@@ -6,5 +6,7 @@ class Board():
     def __init__(self):
         self.board = []
 
-    def addShip(self, x, y):
-        
+    def addShip(self, ship):
+        print(ship)
+
+Board.addShip([0,0,0,0,"str"])
